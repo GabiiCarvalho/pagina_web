@@ -1,0 +1,43 @@
+.menu_oculto {
+    display: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul a:hover {
+    color: #ee8002;
+}
+
+.menu li {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+#mostrarMenu {
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icons a {
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 15%; 
+    margin: 5px;
+}

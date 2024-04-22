@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+
+.logo {
+    text-align: center; /* centraliza a logo */
+}
+.logo img {
+    height: 200px;
+    width: 200px;
+    z-index: -1;
+    margin-top: -100px;
+}
+
+.menu_oculto {
+    display: none;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul a:hover {
+    color: #ee8002;
+}
+
+.menu li {
+    font-size: 20px;
+    padding: 5px;
+    text-decoration: underline;
+}
+
+#mostrarMenu {
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    height: 40px;
+    width: 80px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.icons a {
+    display: inline-block;
+    border: 2px solid orange;
+    border-radius: 15%; 
+    margin: 5px;
+}
+
+/* section */
+#coluna {
+    box-sizing: border-box;
+    color: #ccc;
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 415px;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.container_coluna {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.container_coluna a {
+    text-decoration: none;
+}
+
+div .rastreio a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div .orcamento a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div .tabela a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div .quemSomos a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div .faleConosco a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* */
+
+div .rastreio {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    width: 150px;
+    height: 65px;
+}
+
+div .orcamento {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    width: 150px;
+    height: 65px;
+}
+
+div .tabela {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    width: 150px;
+    height: 65px;
+}
+
+div .quemSomos {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    width: 150px;
+    height: 65px;
+}
+
+div .faleConosco {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ee8002;
+    border-radius: 10px;
+    border: 2px solid orange;
+    box-sizing: border-box;
+    width: 150px;
+    height: 65px;
+}
+
+.content {
+    min-height: 100%; /* Ajusta a altura do conteúdo para ocupar pelo menos toda a altura da janela */
+    padding-bottom: 100px; /* Adiciona espaço na parte inferior para o footer */
+    background-color: #f0f0f0; /* Apenas para visualização */
+}
+
+.alert {
+    box-sizing: border-box;
+    background-color: #ffcb90;
+    border: 1px solid #ee8002;
+    border-radius: 5px;
+    text-align: center;
+    width: 480px;
+    height: 155px;
+    margin: 0 auto;
+    margin-top: 10px;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center; 
+    margin-top: 20px;
+    color: grey;
+    font-weight: bold;
+    padding: 10px 0;
+    background-color: #fff;
+}
+
+.sticky {
+    position: fixed;
+    bottom: 0;
+}
